@@ -1,0 +1,28 @@
+{
+  "name": "merng-fullstack-social-media-app",
+  "version": "1.0.0",
+  "description": "MongoDB, Express, Node,  React, Node, and GraphQL social media application",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "apollo-server-express": "^2.19.2",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleyerffmeyer/merng-fullstack-social-media-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleyerffmeyer/merng-fullstack-social-media-app/issues"
+  },
+  "homepage": "https://github.com/ashleyerffmeyer/merng-fullstack-social-media-app#readme"
+}
