@@ -6,7 +6,10 @@ import PostCard from '../components/PostCard';
 
 
 function Home() {
-    const { loading, data: { getPosts: posts } } = useQuery(FETCH_POSTS_QUERY);
+    const {
+        loading,
+        data: { getPosts: posts }
+    } = useQuery(FETCH_POSTS_QUERY);
     return (
         <Grid columns={3} divided>
             <Grid.Row className="page-title">
@@ -30,13 +33,20 @@ function Home() {
 const FETCH_POSTS_QUERY = gql`
 {
     getPosts{
-    id body createdAt username likeCount
+    id 
+    body 
+    createdAt 
+    username 
+    likeCount
     likes{
         username
     }
     commentCount
     comments{
-        id username createdAt body
+        id 
+        username 
+        createdAt 
+        body
     }
     }
 }
