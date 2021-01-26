@@ -16,5 +16,6 @@ This application includes a GraphQL server that uses Node and Express to communi
 * [Semantic UI React](https://react.semantic-ui.com/)
 * [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 * [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+* [jwt-decode](https://www.npmjs.com/package/jwt-decode)
 * Heroku
 * Netlify
